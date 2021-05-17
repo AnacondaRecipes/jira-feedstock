@@ -28,8 +28,6 @@ requirements:
     - setuptools >=17.1
     - pytest-runner
     - sphinx >=1.6.5
-
-  host:
     - setuptools_scm >=1.15.0
     - setuptools_scm_git_archive >=1.0
 
