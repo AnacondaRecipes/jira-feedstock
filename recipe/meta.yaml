@@ -22,22 +22,26 @@ build:
 
 requirements:
   build:
-    - python
+    - python >=3.6
     - pip
     - pbr >=3.0
     - setuptools >=17.1
     - pytest-runner
     - sphinx >=1.6.5
 
+  host:
+    - setuptools_scm >=1.15.0
+    - setuptools_scm_git_archive >=1.0
+
   run:
-    - python
+    - python >=3.6
     - defusedxml
-    - pbr >=3.0.0
-    - requests-oauthlib >=0.6.1
+    - keyring
+    - requests-oauthlib >=1.1.0
     - requests >=2.10.0
     - requests-toolbelt
     - setuptools >=20.10.1
-    - six >=1.10.0
+    - ipython >=4.0.0
 
 test:
   imports:
