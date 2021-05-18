@@ -27,7 +27,7 @@ requirements:
     - pbr >=3.0
     - setuptools >=17.1
     - pytest-runner
-    - sphinx >=1.6.5
+    - sphinx >=2.2.0
     - setuptools_scm >=1.15.0
     - setuptools_scm_git_archive >=1.0
 
