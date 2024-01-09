@@ -18,7 +18,7 @@ build:
   entry_points:
     - jirashell = jira.jirashell:main
   number: 0
-  script: python -m pip install --no-deps --no-build-isolation --ignore-installed .
+  script: python -m pip install --no-deps --no-build-isolation --ignore-installed . -v
 
 requirements:
   host:
