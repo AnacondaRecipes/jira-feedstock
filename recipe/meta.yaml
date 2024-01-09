@@ -47,6 +47,7 @@ test:
     - pip
   commands:
     - pip check
+    - jirashell --help
 
 about:
   home: https://github.com/pycontribs/jira
