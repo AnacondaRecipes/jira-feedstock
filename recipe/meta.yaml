@@ -38,6 +38,7 @@ requirements:
     - requests-oauthlib >=1.1.0
     - requests-toolbelt
     - typing_extensions >=3.7.4.2
+    - ipython >=4.0.0
 
 test:
   imports:
