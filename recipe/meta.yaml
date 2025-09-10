@@ -36,7 +36,6 @@ requirements:
     - ipython >=4.0.0
   run_constrained:
     - requests-futures >=0.9.7
-    - ipython >=4.0.0
     - filemagic >=1.6
 
 test:
