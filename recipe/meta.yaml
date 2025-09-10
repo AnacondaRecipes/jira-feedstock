@@ -27,7 +27,6 @@ requirements:
     - defusedxml
     - keyring
     - packaging
-    - pillow >=2.1.0
     - python
     - requests >=2.10.0
     - requests-oauthlib >=1.1.0
